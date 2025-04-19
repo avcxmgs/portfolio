@@ -10,47 +10,30 @@ import HeroImage from "./components/Hero_Image/HeroImage";
 import RadioButton from "./components/Radio_Button/RadioButton";
 import Dropdown from "./components/Dropdown/Dropdown";
 
-function App() {
-  const items = [
-    { value: "d1", label: "Dropdown 1" },
-    { value: "d2", label: "Dropdown 2" },
-    { value: "d3", label: "Dropdown 3" },
-  ];
+import Navbar from "./pages/Navbar";
+import About from "./pages/About";
+import Work from "./pages/Work";
+import Skills from "./pages/Skills";
+import Resources from "./pages/Resources";
+import Setup from "./pages/Setup";
 
+function App() {
   return (
     <>
-      <HeroImage
-        src="https://placehold.co/1200x300"
-        alt="placeholder image"
-        text="HERO IMAGE"
-        disabled={false}
-      />
-      <Button disabled={false}>Button</Button>
-      <br />
-      <Text disabled={false}>Text Area</Text>
-      <br />
-      <Label disabled={false}>Label</Label>
-      <Table disabled={false}>
-        <tr>
-          <th>TH1</th>
-          <th>TH2</th>
-        </tr>
-        <tr>
-          <td>TD1</td>
-          <td>TD2</td>
-        </tr>
-      </Table>
-      <br />
-      <Img
-        src="https://placehold.co/300"
-        alt="placeholder image"
-        disabled={false}
-      />
-      <br />
-      <RadioButton label="Radio Button" disabled={false} />
-      <br />
-      <Dropdown items={items} disabled={false} />
-      <br />
+      <main>
+        <HeroImage
+          src="IMG_3291.jpg"
+          alt="fairy lights and lanterns"
+          text="MARGARETH SANTOS"
+          disabled={false}
+        />
+        <Navbar />
+        <About />
+        <Work />
+        <Skills />
+        <Resources />
+        <Setup />
+      </main>
     </>
   );
 }

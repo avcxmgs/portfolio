@@ -9,7 +9,8 @@ const StyledContainer = styled.div<{ disabled?: boolean }>`
 
 const StyledHeroImage = styled.img<{ disabled?: boolean }>`
   opacity: ${({ disabled }) => (disabled ? 0.5 : 1)};
-  cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
+  width: 1200px;
+  cursor: ${({ disabled }) => (disabled ? "not-allowed" : "default")};
 `;
 
 const StyledHeroText = styled.div<{ disabled?: boolean }>`
@@ -17,8 +18,10 @@ const StyledHeroText = styled.div<{ disabled?: boolean }>`
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 30px;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
   color: ${({ disabled }) => (disabled ? "gray" : "white")};
+  cursor: ${({ disabled }) => (disabled ? "not-allowed" : "default")};
 `;
 
 const HeroImage: React.FC<HeroImageProps> = ({ src, alt, text, disabled }) => {
