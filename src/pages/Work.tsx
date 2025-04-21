@@ -9,27 +9,29 @@ export default function Work() {
             Work
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            This is a collection of some of my projects that I made during my
+            time in my program.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          <a href="link" key="image" className="sm:w-1/2 w-100 p-4">
+          <a
+            href="https://github.com/avcxmgs/webdev1proj"
+            className="sm:w-1/2 w-100 p-4"
+          >
             <div className="flex relative">
               <img
-                alt="gallery"
+                alt="screenshot of the project"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src="img"
+                src="webdev1proj.png"
               />
-              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                  subtitle
-                </h2>
+              <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-rose-900 opacity-0 hover:opacity-100">
                 <h1 className="title-font text-lg font-medium text-white mb-3">
-                  title
+                  First Website
                 </h1>
-                <p className="leading-relaxed">description</p>
+                <p className="leading-relaxed">
+                  I created this website as my final project for the Web
+                  Development 1 course.
+                </p>
               </div>
             </div>
           </a>
