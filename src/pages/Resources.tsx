@@ -10,7 +10,8 @@ export default function Resources() {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Here are some of the resources that I used to create this demo
-            website.
+            website. Any photos used in this portfolio are either my own
+            photography, or graphics created by myself.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
