@@ -30,7 +30,7 @@ export default function Work() {
                 </h1>
                 <p className="leading-relaxed">
                   I created this website as my final project for the Web
-                  Development 1 course.
+                  Development 1 course. <br /> Tech: HTML, CSS, JavaScript
                 </p>
               </div>
             </div>
