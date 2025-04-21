@@ -24,7 +24,7 @@ function App() {
         <HeroImage
           src="IMG_3291.jpg"
           alt="fairy lights and lanterns"
-          text="MARGARETH SANTOS"
+          text="WELCOME!"
           disabled={false}
         />
         <Navbar />
